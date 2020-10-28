@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppLoadingOverlay loading = false ならslotが表示される 1`] = `
+<div>
+  <div>
+    slot
+  </div>
+</div>
+`;
+
+exports[`components/atoms/AppLoadingOverlay loading = true ならoverlayが表示される 1`] = `
+<div>
+  <div>
+    <div
+      class="absolute inset-0 h-full"
+      data-testid="overlay"
+    >
+      <div
+        class="position-center"
+      >
+        <fontawesomeicon-stub
+          class="fa-6x text-black opacity-50"
+          icon="[object Object]"
+          pulse=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

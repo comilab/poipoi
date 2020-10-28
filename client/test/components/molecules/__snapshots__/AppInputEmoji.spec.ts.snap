@@ -1,0 +1,206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/molecules/AppInputEmoji props label ラベルとして表示 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <label
+      class="text-sm font-bold py-2"
+      data-testid="label"
+    >
+      label
+    </label>
+    <div
+      class="mb-2"
+    >
+      <div
+        class="twemoji-picker"
+        data-testid="twemoji-picker"
+      >
+        <div>
+          <div
+            id="popper-container"
+            style="position: absolute; left: 0px; top: 0px; margin: 0px;"
+          >
+            <div
+              data-popper-arrow=""
+              id="arrow"
+              style="position: absolute;"
+            />
+             
+            <div
+              id="popper-inner"
+            >
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            id="popper-button"
+          >
+            <!---->
+          </div>
+        </div>
+         
+        <span
+          id="dummy-clickable-skin"
+        />
+      </div>
+    </div>
+    <div
+      class="w-full border rounded px-2"
+      data-testid="emojis"
+    >
+      <div
+        class="text-gray-700 m-2"
+      >
+        全ての絵文字を使用
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/molecules/AppInputEmoji props label 空ならラベル要素自体を描画しない 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <!---->
+    <div
+      class="mb-2"
+    >
+      <div
+        class="twemoji-picker"
+        data-testid="twemoji-picker"
+      >
+        <div>
+          <div
+            id="popper-container"
+            style="position: absolute; left: 0px; top: 0px; margin: 0px;"
+          >
+            <div
+              data-popper-arrow=""
+              id="arrow"
+              style="position: absolute;"
+            />
+             
+            <div
+              id="popper-inner"
+            >
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            id="popper-button"
+          >
+            <!---->
+          </div>
+        </div>
+         
+        <span
+          id="dummy-clickable-skin"
+        />
+      </div>
+    </div>
+    <div
+      class="w-full border rounded px-2"
+      data-testid="emojis"
+    >
+      <div
+        class="text-gray-700 m-2"
+      >
+        全ての絵文字を使用
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/molecules/AppInputEmoji renders correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <!---->
+    <div
+      class="mb-2"
+    >
+      <div
+        class="twemoji-picker"
+        data-testid="twemoji-picker"
+      >
+        <div>
+          <div
+            id="popper-container"
+            style="position: absolute; left: 0px; top: 0px; margin: 0px;"
+          >
+            <div
+              data-popper-arrow=""
+              id="arrow"
+              style="position: absolute;"
+            />
+             
+            <div
+              id="popper-inner"
+            >
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            id="popper-button"
+          >
+            <!---->
+          </div>
+        </div>
+         
+        <span
+          id="dummy-clickable-skin"
+        />
+      </div>
+    </div>
+    <div
+      class="w-full border rounded px-2"
+      data-testid="emojis"
+    >
+      <div
+        class="text-gray-700 m-2"
+      >
+        全ての絵文字を使用
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/molecules/AppInputEmoji slots button AppTwemojiPicker内に表示 1`] = `
+<div>
+  <div
+    class="flex flex-col"
+  >
+    <!---->
+    <div
+      class="mb-2"
+    >
+      <div
+        data-testid="twemoji-picker"
+      >
+        button
+      </div>
+    </div>
+    <div
+      class="w-full border rounded px-2"
+      data-testid="emojis"
+    >
+      <div
+        class="text-gray-700 m-2"
+      >
+        全ての絵文字を使用
+      </div>
+    </div>
+  </div>
+</div>
+`;

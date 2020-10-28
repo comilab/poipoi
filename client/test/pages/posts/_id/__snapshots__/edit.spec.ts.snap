@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/posts/_id/edit renders correctly 1`] = `
+<div>
+  <div>
+    <appformpost-stub
+      post="[object Object]"
+    />
+  </div>
+</div>
+`;

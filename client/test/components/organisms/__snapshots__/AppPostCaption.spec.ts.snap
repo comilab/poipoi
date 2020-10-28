@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostCaption renders correctly 1`] = `
+<div>
+  <div
+    class="caption"
+  >
+    キャプション
+    <br />
+    <nuxtlink-stub>
+      #ハッシュタグ
+    </nuxtlink-stub>
+  </div>
+</div>
+`;

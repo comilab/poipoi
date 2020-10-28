@@ -1,0 +1,12 @@
+version: '3'
+services:
+  php:
+    build: ./docker/php
+    volumes:
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini
+      - ./php:/var/www/php
+  node:
+    build: ./docker/node
+    command: tail -f /dev/null
+    volumes:
+      - ./client:/var/www/client

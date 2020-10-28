@@ -1,0 +1,927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppFormPost renders correctly 1`] = `
+<div>
+  <span>
+    <form
+      class="max-w-screen-md mx-auto"
+      name="post"
+    >
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <!---->
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-タイトル"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-0"
+          >
+            タイトル
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-0"
+            name="タイトル"
+            type="text"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <div
+              class="text-gray-500 text-right mt-1"
+              data-testid="counter"
+            >
+              0 / 32
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-キャプション"
+          placeholder="#を付けるとタグになります"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-1"
+          >
+            キャプション
+          </label>
+          <textarea
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 p-2"
+            data-testid="input"
+            id="input-1"
+            name="キャプション"
+            placeholder="#を付けるとタグになります"
+            style="height: auto;"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <div
+              class="text-gray-500 text-right mt-1"
+              data-testid="counter"
+            >
+              0 / 200
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          画像
+        </h3>
+        <appinputimages-stub
+          images=""
+        />
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-2"
+          >
+            <span>
+              画像の一覧を表示
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-1枚目の画像をサムネイルとして表示"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-3"
+          >
+            <span>
+              1枚目の画像をサムネイルとして表示
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="1枚目の画像をサムネイルとして表示"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="1枚目の画像をサムネイルとして表示"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+      </section>
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          <span>
+            本文
+          </span>
+          <vpopover-stub
+            class="inline-block"
+            placement="top"
+            popper-options="[object Object]"
+            trigger="click hover"
+          >
+            <button
+              class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+              type="button"
+            >
+              <span />
+            </button>
+          </vpopover-stub>
+        </h3>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-本文"
+        >
+          <!---->
+          <textarea
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 p-2"
+            data-testid="input"
+            id="input-4"
+            name="本文"
+            style="height: auto;"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <div
+              class="text-gray-500 text-right mt-1"
+              data-testid="counter"
+            >
+              0 / 300000
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          オプション
+        </h3>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-公開範囲"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-5"
+          >
+            公開範囲
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="公開範囲"
+                type="radio"
+                value="public"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                全体公開
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="公開範囲"
+                type="radio"
+                value="password"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                パスワード
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="公開範囲"
+                type="radio"
+                value="private"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                非公開
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <!---->
+        <div
+          class="flex flex-col my-4"
+        >
+          <label
+            class="text-sm font-bold py-2"
+          >
+            <span>
+              公開期間
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex items-start flex-wrap"
+          >
+            <div
+              class="flex flex-col mb-4 md_mb-0 untouched pristine"
+              data-testid="input-publishStart"
+            >
+              <!---->
+              <input
+                class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+                data-testid="input"
+                id="input-6"
+                name="publishStart"
+                type="datetime-local"
+              />
+              <div
+                class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+              >
+                <!---->
+                <!---->
+              </div>
+            </div>
+            <div
+              class="self-center mx-2"
+            >
+              〜
+            </div>
+            <div
+              class="flex flex-col untouched pristine"
+              data-testid="input-publishEnd"
+            >
+              <!---->
+              <input
+                class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+                data-testid="input"
+                id="input-7"
+                name="publishEnd"
+                type="datetime-local"
+              />
+              <div
+                class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+              >
+                <div
+                  data-testid="errors"
+                />
+                <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-8"
+          >
+            <span>
+              レーティング
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value=""
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                なし
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="nsfw"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                閲覧注意
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="r18"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                R-18
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-9"
+          >
+            <span>
+              トップページの先頭に固定
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                固定しない
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                固定する
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-10"
+          >
+            <span>
+              検索避け
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value=""
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                デフォルト
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-11"
+          >
+            <span>
+              リアクション
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value=""
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                デフォルト
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                受け付ける
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                受け付けない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4"
+        >
+          <label
+            class="text-sm font-bold py-2"
+          >
+            <span>
+              リアクションに利用する絵文字
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-col mb-2 untouched pristine"
+            data-testid="input-null"
+          >
+            <!---->
+            <label
+              class="cursor-pointer"
+              data-testid="input"
+            >
+              <input
+                class="mr-2"
+                name="デフォルト設定を使用"
+                type="checkbox"
+                value="true"
+              />
+              <span>
+                デフォルト設定を使用
+              </span>
+            </label>
+            <div
+              class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+            >
+              <div
+                data-testid="errors"
+              />
+              <!---->
+            </div>
+          </div>
+          <div
+            class="md_grid gap-4 grid-cols-2"
+          >
+            <appinputemoji-stub
+              disabled="true"
+              value=""
+            />
+            <appinputemoji-stub
+              class="mt-4 md_mt-0"
+              disabled="true"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-13"
+          >
+            <span>
+              Twitterシェア
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <span />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value=""
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                デフォルト
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                有効
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                無効
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+      </section>
+      <div
+        class="text-center"
+      >
+        <button
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+          data-testid="button"
+          type="submit"
+        >
+          <div>
+            <span
+              class="fa-fw mr-2"
+              data-testid="icon"
+            />
+          </div>
+          <div
+            class=""
+            data-testid="text"
+          >
+            投稿する
+          </div>
+        </button>
+      </div>
+    </form>
+  </span>
+</div>
+`;

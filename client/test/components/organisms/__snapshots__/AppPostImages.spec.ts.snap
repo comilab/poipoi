@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostImages renders correctly 1`] = `
+<div>
+  <div
+    class="flex flex-col text-center relative"
+  >
+    <div
+      class="my-4"
+    >
+      <div
+        class="inline-block"
+      >
+        <div
+          class="zoomable-area relative"
+          data-testid="zoomable-area"
+        >
+          <img
+            class="select-none pointer-events-none post-image"
+            data-testid="zoomable-area-img"
+            src="undefinedlarge"
+          />
+          <div
+            class="caution absolute right-0 bottom-0 text-white text-xs p-2"
+          >
+            無断転載禁止
+          </div>
+        </div>
+        <transition-stub
+          enterclass="opacity-0"
+          leavetoclass="opacity-0"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    <div
+      class="my-4"
+      style="display: none;"
+    >
+      <div
+        class="inline-block"
+      >
+        <div
+          class="zoomable-area relative"
+          data-testid="zoomable-area"
+        >
+          <img
+            class="select-none pointer-events-none post-image"
+            data-testid="zoomable-area-img"
+            src="undefinedlarge"
+          />
+          <div
+            class="caution absolute right-0 bottom-0 text-white text-xs p-2"
+          >
+            無断転載禁止
+          </div>
+        </div>
+        <transition-stub
+          enterclass="opacity-0"
+          leavetoclass="opacity-0"
+        >
+          <!---->
+        </transition-stub>
+      </div>
+    </div>
+    <button
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none position-x-center bottom-0 shadow-xl mb-12 md_mb-16 bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded-full"
+      data-testid="button"
+      type="button"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw mr-2"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      >
+        すべて表示 (2枚)
+      </div>
+    </button>
+  </div>
+</div>
+`;

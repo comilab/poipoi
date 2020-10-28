@@ -1,0 +1,707 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/settings renders correctly 1`] = `
+<div>
+  <div>
+    <form
+      class="max-w-screen-md mx-auto"
+      name="settings"
+    >
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          ユーザ設定
+        </h3>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-ユーザ名"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-0"
+          >
+            ユーザ名
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-0"
+            name="ユーザ名"
+            type="text"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-メールアドレス"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-1"
+          >
+            メールアドレス
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-1"
+            name="メールアドレス"
+            type="email"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-パスワード"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-2"
+          >
+            パスワード
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-2"
+            name="パスワード"
+            type="password"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+      </section>
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          サイト設定
+        </h3>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-サイト名"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-3"
+          >
+            サイト名
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-3"
+            name="サイト名"
+            type="text"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <div
+              class="text-gray-500 text-right mt-1"
+              data-testid="counter"
+            >
+              10 / 32
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-サイト概要"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-4"
+          >
+            サイト概要
+          </label>
+          <textarea
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 p-2"
+            data-testid="input"
+            id="input-4"
+            name="サイト概要"
+            style="height: auto;"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <div
+              class="text-gray-500 text-right mt-1"
+              data-testid="counter"
+            >
+              16 / 200
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-1ページあたりの表示件数"
+          min="1"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-5"
+          >
+            1ページあたりの表示件数
+          </label>
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-5"
+            min="1"
+            name="1ページあたりの表示件数"
+            type="number"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-トップページの検索避け"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-6"
+          >
+            トップページの検索避け
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="トップページの検索避け"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="トップページの検索避け"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-RSS配信"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-7"
+          >
+            RSS配信
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="RSS配信"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                配信する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="RSS配信"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                配信しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+      </section>
+      <section
+        class="rounded bg-white my-8 p-4"
+        data-testid="section"
+      >
+        <h3
+          class="text-lg"
+          data-testid="title"
+        >
+          投稿基本設定
+        </h3>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-8"
+          >
+            <span>
+              デフォルトで検索避けを行う対象
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <fontawesomeicon-stub
+                  icon="[object Object]"
+                />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="checkbox"
+                value="public"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                全体公開
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="checkbox"
+                value="password"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                パスワード
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="checkbox"
+                value="nsfw"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                閲覧注意
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="checkbox"
+                value="r18"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                R-18
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-リアクション"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-9"
+          >
+            <span>
+              リアクション
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <fontawesomeicon-stub
+                  icon="[object Object]"
+                />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="リアクション"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                受け付ける
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                name="リアクション"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                受け付けない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4"
+        >
+          <label
+            class="text-sm font-bold py-2"
+          >
+            <span>
+              リアクションに利用する絵文字
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <fontawesomeicon-stub
+                  icon="[object Object]"
+                />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="md_grid gap-4 grid-cols-2"
+          >
+            <div
+              class="flex flex-col"
+            >
+              <!---->
+              <div
+                class="mb-2"
+              >
+                <apptwemojipicker-stub
+                  data-testid="twemoji-picker"
+                >
+                  <button
+                    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+                    data-testid="button"
+                    type="button"
+                  >
+                    <div>
+                      <fontawesomeicon-stub
+                        class="fa-fw mr-2"
+                        data-testid="icon"
+                        icon="[object Object]"
+                      />
+                    </div>
+                    <div
+                      class=""
+                      data-testid="text"
+                    >
+                      利用する絵文字を選択
+                    </div>
+                  </button>
+                </apptwemojipicker-stub>
+              </div>
+              <div
+                class="w-full border rounded px-2"
+                data-testid="emojis"
+              >
+                <div
+                  class="text-gray-700 m-2"
+                >
+                  全ての絵文字を使用
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col mt-4 md_mt-0"
+            >
+              <!---->
+              <div
+                class="mb-2"
+              >
+                <apptwemojipicker-stub
+                  data-testid="twemoji-picker"
+                >
+                  <button
+                    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+                    data-testid="button"
+                    type="button"
+                  >
+                    <div>
+                      <fontawesomeicon-stub
+                        class="fa-fw mr-2"
+                        data-testid="icon"
+                        icon="[object Object]"
+                      />
+                    </div>
+                    <div
+                      class=""
+                      data-testid="text"
+                    >
+                      利用しない絵文字を選択
+                    </div>
+                  </button>
+                </apptwemojipicker-stub>
+              </div>
+              <div
+                class="w-full border rounded px-2"
+                data-testid="emojis"
+              >
+                <div
+                  class="text-gray-700 m-2"
+                >
+                  全ての絵文字を使用
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col my-4 untouched pristine"
+          data-testid="input-null"
+        >
+          <label
+            class="text-sm font-bold py-2"
+            data-testid="label"
+            for="input-10"
+          >
+            <span>
+              Twitterシェア
+            </span>
+            <vpopover-stub
+              class="inline-block"
+              placement="top"
+              popper-options="[object Object]"
+              trigger="click hover"
+            >
+              <button
+                class="text-blue-600 cursor-pointer focus_outline-none ml-2"
+                type="button"
+              >
+                <fontawesomeicon-stub
+                  icon="[object Object]"
+                />
+              </button>
+            </vpopover-stub>
+          </label>
+          <div
+            class="flex flex-wrap -mx-4 -my-2"
+            data-testid="input"
+          >
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="true"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示する
+              </span>
+            </label>
+            <label
+              class="cursor-pointer mx-4 my-2"
+            >
+              <input
+                class="mr-2"
+                type="radio"
+                value="false"
+              />
+              <span
+                class="whitespace-nowrap"
+              >
+                表示しない
+              </span>
+            </label>
+          </div>
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+      </section>
+      <div
+        class="text-center"
+      >
+        <button
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+          data-testid="button"
+          type="submit"
+        >
+          <div>
+            <fontawesomeicon-stub
+              class="fa-fw mr-2"
+              data-testid="icon"
+              icon="[object Object]"
+            />
+          </div>
+          <div
+            class=""
+            data-testid="text"
+          >
+            保存
+          </div>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`store/index StoreProvider, useStore 1`] = `
+<div>
+  <div>
+    <div>
+      inner
+    </div>
+  </div>
+</div>
+`;

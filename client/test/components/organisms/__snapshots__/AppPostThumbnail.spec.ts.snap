@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostThumbnail renders correctly 1`] = `
+<div>
+  <figure
+    class="relative"
+  >
+    <div
+      class="is-square relative w-full"
+    >
+      <div
+        class="content absolute inset-0"
+      >
+        <img
+          class="object-cover border rounded select-none pointer-events-none"
+          src="undefinedsmall"
+        />
+      </div>
+    </div>
+    <div
+      class="absolute top-0 px-1 py-2"
+    >
+      <ul
+        class="flex"
+      >
+        <li
+          class="mx-1"
+        >
+          <div
+            aria-label="固定"
+            class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none bg-blue-600 text-white hover_bg-blue-700 text-sm px-2 py-1 square-sm rounded-full"
+            data-testid="button"
+          >
+            <div>
+              <fontawesomeicon-stub
+                class="fa-fw"
+                data-testid="icon"
+                icon="[object Object]"
+              />
+            </div>
+            <div
+              class=""
+              data-testid="text"
+            />
+          </div>
+        </li>
+        <li
+          class="mx-1"
+        >
+          <div
+            class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none bg-red-700 text-white hover_bg-red-800 text-sm px-2 py-1 rounded-full"
+            data-testid="button"
+          >
+            <div>
+              <fontawesomeicon-stub
+                class="fa-fw mr-2"
+                data-testid="icon"
+                icon="[object Object]"
+              />
+            </div>
+            <div
+              class=""
+              data-testid="text"
+            >
+              <span
+                style="display: none;"
+              >
+                閲覧注意
+              </span>
+            </div>
+          </div>
+        </li>
+        <!---->
+        <!---->
+      </ul>
+    </div>
+    <div
+      class="absolute right-0 bottom-0 text-right"
+    >
+      <div
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none border mr-2 mb-2 pointer-events-none bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 text-sm px-2 py-1 rounded"
+        data-testid="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class=""
+          data-testid="text"
+        >
+          1
+        </div>
+      </div>
+      <div
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none border mr-2 mb-2 pointer-events-none bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 text-sm px-2 py-1 rounded"
+        data-testid="button"
+      >
+        <!---->
+        <div
+          class=""
+          data-testid="text"
+        >
+          3 字
+        </div>
+      </div>
+    </div>
+    <div
+      class="absolute inset-0 bg-white bg-opacity-75 opacity-0 hover_opacity-100 transition-opacity duration-300 border rounded p-4"
+    >
+      <figcaption
+        class="figcaption text-sm select-none overflow-hidden has-title"
+      >
+        <div
+          class="text-base font-bold truncate"
+        >
+          title
+        </div>
+        <div
+          class="caption"
+        >
+          caption
+        </div>
+      </figcaption>
+    </div>
+  </figure>
+</div>
+`;

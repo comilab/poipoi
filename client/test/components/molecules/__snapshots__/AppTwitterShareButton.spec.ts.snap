@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/molecules/AppTwitterShareButton renders correctly 1`] = `
+<div>
+  <div>
+    <a
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none tweet-button bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+      data-testid="button"
+      href="http://twitter.com/share?text="
+      target="_blank"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw mr-2"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      >
+        Tweet
+      </div>
+    </a>
+  </div>
+</div>
+`;

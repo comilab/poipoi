@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostTextPage renders correctly 1`] = `
+<div>
+  <section
+    class="rounded bg-white my-8 p-4 text-page"
+    data-testid="section"
+  >
+    <!---->
+    <br />
+          
+    <h3>
+      1ページ目の章タイトル
+    </h3>
+    <br />
+          本文
+    <br />
+          本文
+    <br />
+          本文
+    <br />
+          
+    <a>
+      2ページ目へ
+    </a>
+    <br />
+          
+    <a
+      href="リンク"
+      target="_blank"
+    >
+      https://example.com
+    </a>
+    <br />
+          
+    <ruby>
+      ルビ
+      <rt>
+        るび
+      </rt>
+    </ruby>
+    <br />
+          
+    <div
+      class="inline-block"
+    >
+      <div
+        class="zoomable-area relative"
+        data-testid="zoomable-area"
+      >
+        <img
+          class="select-none pointer-events-none"
+          data-testid="zoomable-area-img"
+          src="undefinedlarge"
+        />
+        <div
+          class="caution absolute right-0 bottom-0 text-white text-xs p-2"
+        >
+          無断転載禁止
+        </div>
+      </div>
+      <transition-stub
+        enterclass="opacity-0"
+        leavetoclass="opacity-0"
+      >
+        <!---->
+      </transition-stub>
+    </div>
+    <br />
+        
+  </section>
+</div>
+`;

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap');
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.max-h-90 {
+  max-height: 90vh;
+}
+
+.position-x-center {
+  @apply absolute transform -translate-x-1/2;
+  left: 50%;
+}
+
+.position-y-center {
+  @apply absolute transform -translate-y-1/2;
+  top: 50%;
+}
+
+.position-center {
+  @apply absolute transform -translate-x-1/2 -translate-y-1/2;
+  top: 50%;
+  left: 50%;
+}
+
+/*! purgecss start ignore */
+.tooltip {
+  @apply z-50;
+
+  & .tooltip-inner {
+    @apply bg-black bg-opacity-75 text-white rounded shadow max-w-sm p-2 mx-4;
+
+    @screen md {
+      @apply max-w-md;
+    }
+  }
+
+  &[aria-hidden="true"] {
+    @apply invisible opacity-0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden="false"] {
+    @apply visible opacity-100;
+    transition: opacity .15s;
+  }
+}
+/*! purgecss end ignore */

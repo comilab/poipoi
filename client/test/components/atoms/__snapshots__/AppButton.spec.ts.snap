@@ -1,0 +1,668 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppButton attrs ボタンに属性がセットされる 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    foo="bar"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton breakpoint lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 square-md breakpoint-lg rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw lg_mr-2"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class="hidden lg_block"
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton breakpoint md 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 square-md breakpoint-md rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw md_mr-2"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class="hidden md_block"
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton buttonClass ボタンにクラスがセットされる 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded button-class"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton color blue 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton color gray 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-gray-300 text-gray-800 hover_bg-gray-400 px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton color red 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-red-700 text-white hover_bg-red-800 px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton color white 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton color yellow 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-yellow-500 text-gray-800 hover_bg-yellow-600 px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton component props.href があれば a 1`] = `
+<div>
+  <a
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    href="/href"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </a>
+</div>
+`;
+
+exports[`components/atoms/AppButton component props.to があれば nuxt-link 1`] = `
+<div>
+  <nuxtlink-stub
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    to="/to"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </nuxtlink-stub>
+</div>
+`;
+
+exports[`components/atoms/AppButton component props.type = badge なら div 1`] = `
+<div>
+  <div
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none px-3 py-2 rounded"
+    data-testid="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/atoms/AppButton component それ以外なら button 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton href a要素の属性にセット 1`] = `
+<div>
+  <a
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    href="/href"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </a>
+</div>
+`;
+
+exports[`components/atoms/AppButton icon FontAwesomeIconに渡す 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw mr-2"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton icon r18の場合はFontAwesomeを使わない 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded has-r18-icon"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <div
+        class="inline-block text-xs font-bold rounded tracking-tighter leading-tight px-px mr-2"
+        data-testid="icon"
+      >
+        R18
+      </div>
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton iconClass アイコンにクラスがセットされる 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw mr-2 icon-class"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton indeterminate FontAwesomeIconにpulseを渡す 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div
+      role="status"
+    >
+      <fontawesomeicon-stub
+        class="fa-fw mr-2"
+        data-testid="icon"
+        icon="[object Object]"
+        pulse="true"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton indeterminate iconが強制的にfaSpinnerになる 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div
+      role="status"
+    >
+      <fontawesomeicon-stub
+        class="fa-fw mr-2"
+        data-testid="icon"
+        icon="[object Object]"
+        pulse="true"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton pill true 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded-full"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton renders correctly 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton size lg 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none text-xl px-4 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton size md + iconOnly 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 square-md rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    />
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton size md 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton size sm + iconOnly 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none text-sm px-2 py-1 square-sm rounded"
+    data-testid="button"
+    type="button"
+  >
+    <div>
+      <fontawesomeicon-stub
+        class="fa-fw"
+        data-testid="icon"
+        icon="icon"
+      />
+    </div>
+    <div
+      class=""
+      data-testid="text"
+    />
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton size sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none text-sm px-2 py-1 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton square true + md 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 square-md rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton square true + sm 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none text-sm px-2 py-1 square-sm rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton textClass テキストにクラスがセットされる 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class="text-class"
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton to NuxtLinkに渡す 1`] = `
+<div>
+  <nuxtlink-stub
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    to="/to"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </nuxtlink-stub>
+</div>
+`;
+
+exports[`components/atoms/AppButton type badgeならpointer-events-noneクラスをセット 1`] = `
+<div>
+  <div
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none px-3 py-2 rounded"
+    data-testid="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/atoms/AppButton type コンポーネントがbuttonでなければtype属性はセットしない 1`] = `
+<div>
+  <div
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none px-3 py-2 rounded"
+    data-testid="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </div>
+</div>
+`;
+
+exports[`components/atoms/AppButton type コンポーネントがbuttonならtype属性としてセット 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="submit"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;
+
+exports[`components/atoms/AppButton type デフォルトはbutton 1`] = `
+<div>
+  <button
+    class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none px-3 py-2 rounded"
+    data-testid="button"
+    type="button"
+  >
+    <!---->
+    <div
+      class=""
+      data-testid="text"
+    >
+      button-text
+    </div>
+  </button>
+</div>
+`;

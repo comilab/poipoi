@@ -1,0 +1,55 @@
+name: release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: docker-compose
+        run: |
+          docker-compose build
+          docker-compose -f docker-compose.ci.yml up -d
+      - name: setup-php
+        run: |
+          docker-compose exec -T php composer install --no-dev --no-interaction
+          docker-compose exec -T php yarn install --production
+          docker-compose exec -T php php artisan route:cache
+          docker-compose exec -T php php artisan view:cache
+      - name: setup-client
+        run: |
+          docker-compose exec -T node yarn install
+          docker-compose exec -T node yarn generate
+          cp -r client/dist/_nuxt php/public
+          cp client/dist/200.html php/public/_nuxt/index.html
+      - name: zip
+        run: |
+          mv php poipoi
+          cd poipoi
+          rm -r tests
+          rm package.json phpunit.xml .styleci.yml .editorconfig .gitattributes .gitignore .env.example composer.lock yarn.lock
+          cd ../
+          zip -r release.zip poipoi
+      - name: create-release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+      - name: upload-release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./release.zip
+          asset_name: poipoi.zip
+          asset_content_type: application/zip

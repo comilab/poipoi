@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/notifications renders correctly 投稿がある時 1`] = `
+<div>
+  <div
+    post="[object Object]"
+  >
+    <section
+      class="rounded bg-white my-8 p-4 max-w-screen-md divide-y mx-auto px-2 md_px-4"
+      data-testid="section"
+    >
+      <!---->
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="pt-2 mb-2"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded"
+          data-testid="button"
+          to="/posts/2"
+        >
+          <!---->
+          <div
+            class="w-full flex"
+            data-testid="text"
+          >
+            <div
+              class="emoji-wrapper inline-block flex-shrink-0 w-8 h-8"
+            >
+              <img
+                alt="🍣"
+                class="emoji"
+                draggable="false"
+                src="https://twemoji.maxcdn.com/v/13.0.1/72x72/1f363.png"
+              />
+            </div>
+            <div
+              class="flex-auto overflow-hidden ml-2 md_ml-4"
+            >
+              <div
+                class="mb-1"
+              >
+                <div
+                  class="block md_inline"
+                >
+                  リアクションがありました
+                </div>
+                <div
+                  class="block md_inline text-sm md_ml-2"
+                >
+                  (2020-01-01 00:00)
+                </div>
+              </div>
+              <div
+                class="text-sm truncate"
+              >
+                caption
+              </div>
+            </div>
+            <!---->
+          </div>
+        </nuxtlink-stub>
+      </div>
+    </section>
+    <apppagination-stub
+      class="justify-center my-4"
+      pagination="[object Object]"
+    />
+  </div>
+</div>
+`;
+
+exports[`pages/notifications renders correctly 投稿がない時 1`] = `
+<div>
+  <div
+    post="[object Object]"
+  >
+    <section
+      class="rounded bg-white my-8 p-4 max-w-screen-md divide-y mx-auto px-2 md_px-4"
+      data-testid="section"
+    >
+      <!---->
+      <div>
+        お知らせがありません
+      </div>
+    </section>
+    <apppagination-stub
+      class="justify-center my-4"
+      pagination="[object Object]"
+    />
+  </div>
+</div>
+`;

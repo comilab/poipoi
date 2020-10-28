@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostText renders correctly 1`] = `
+<div>
+  <div>
+    <section
+      class="rounded bg-white my-8 p-4 my-4 text-page"
+      data-testid="section"
+      id="foo-0"
+    >
+      <!---->
+      ページ1
+    </section>
+    <section
+      class="rounded bg-white my-8 p-4 my-4 text-page"
+      data-testid="section"
+      id="foo-1"
+      style="display: none;"
+    >
+      <!---->
+      ページ2
+    </section>
+    <div
+      class="text-center -mt-2"
+    >
+      <button
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded-full"
+        data-testid="button"
+        type="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class=""
+          data-testid="text"
+        >
+          すべて表示 (2ページ)
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;

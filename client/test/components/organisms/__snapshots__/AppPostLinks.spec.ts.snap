@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostLinks renders correctly 1`] = `
+<div>
+  <ul
+    class="flex justify-end"
+  >
+    <li
+      class="mx-1"
+    >
+      <a
+        breakpoint="md"
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none tweet-button bg-blue-600 text-white hover_bg-blue-700 text-sm px-2 py-1 square-sm breakpoint-md rounded"
+        data-testid="button"
+        href="http://twitter.com/share?url=https%3A%2F%2Fexample.com&text=caption+-+site-title"
+        size="sm"
+        target="_blank"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw md_mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class="hidden md_block"
+          data-testid="text"
+        >
+          Tweet
+        </div>
+      </a>
+    </li>
+    <li
+      class="mx-1"
+    >
+      <nuxtlink-stub
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-gray-300 text-gray-800 hover_bg-gray-400 text-sm px-2 py-1 square-sm breakpoint-md rounded"
+        data-testid="button"
+        to="/posts/2/edit"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw md_mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class="hidden md_block"
+          data-testid="text"
+        >
+          編集
+        </div>
+      </nuxtlink-stub>
+    </li>
+    <li
+      class="mx-1"
+    >
+      <button
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-gray-300 text-gray-800 hover_bg-gray-400 text-sm px-2 py-1 square-sm breakpoint-md rounded"
+        data-testid="button"
+        type="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw md_mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class="hidden md_block"
+          data-testid="text"
+        >
+          削除
+        </div>
+      </button>
+    </li>
+    <transition-stub
+      enterclass="opacity-0"
+      leavetoclass="opacity-0"
+    >
+      <!---->
+    </transition-stub>
+  </ul>
+</div>
+`;

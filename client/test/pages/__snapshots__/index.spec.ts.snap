@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/index renders correctly 投稿がある時 1`] = `
+<div>
+  <div
+    post="[object Object]"
+  >
+    <section
+      class="rounded bg-white my-8 p-4"
+      data-testid="section"
+    >
+      <!---->
+      <div
+        class="grid gap-4 grid-cols-2 md_grid-cols-4 lg_grid-cols-6"
+      >
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/2"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/3"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/4"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/5"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/6"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/7"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/8"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/9"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/10"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+        <nuxtlink-stub
+          class="post-link inline-block relative"
+          to="/posts/11"
+        >
+          <apppostthumbnail-stub
+            post="[object Object]"
+          />
+        </nuxtlink-stub>
+      </div>
+    </section>
+    <apppagination-stub
+      class="justify-center my-4"
+      pagination="[object Object]"
+    />
+  </div>
+</div>
+`;
+
+exports[`pages/index renders correctly 投稿がない時 1`] = `
+<div>
+  <div
+    post="[object Object]"
+  >
+    <section
+      class="rounded bg-white my-8 p-4"
+      data-testid="section"
+    >
+      <!---->
+      <div
+        class="text-center text-gray-700"
+      >
+        作品がありません
+      </div>
+    </section>
+    <apppagination-stub
+      class="justify-center my-4"
+      pagination="[object Object]"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,8 @@
+{
+  "name": "poipoi-php",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "emoji.json": "^13.0.0"
+  }
+}

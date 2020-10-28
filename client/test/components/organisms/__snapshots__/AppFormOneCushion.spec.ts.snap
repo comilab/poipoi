@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppFormOneCushion props post rating = nsfw renders correctly 1`] = `
+<div>
+  <form
+    aria-label="ワンクッション"
+    class="max-w-screen-md text-center bg-white rounded mx-auto p-8"
+    name="one-cushion"
+  >
+    <fontawesomeicon-stub
+      class="fa-10x text-red-700"
+      icon="[object Object]"
+    />
+    <div
+      class="my-8"
+    >
+      <div>
+        閲覧に注意が必要な内容が含まれます。
+      </div>
+      <!---->
+    </div>
+    <button
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-red-700 text-white hover_bg-red-800 px-3 py-2 rounded"
+      data-testid="button"
+      type="submit"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw mr-2"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      >
+        <span>
+          閲覧する
+        </span>
+      </div>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`components/organisms/AppFormOneCushion props post rating = r18 renders correctly 1`] = `
+<div>
+  <form
+    aria-label="ワンクッション"
+    class="max-w-screen-md text-center bg-white rounded mx-auto p-8"
+    name="one-cushion"
+  >
+    <fontawesomeicon-stub
+      class="fa-10x text-red-700"
+      icon="[object Object]"
+    />
+    <div
+      class="my-8"
+    >
+      <div>
+        18歳未満の方は以降の内容を閲覧することができません。
+      </div>
+      <!---->
+    </div>
+    <button
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-red-700 text-white hover_bg-red-800 px-3 py-2 rounded"
+      data-testid="button"
+      type="submit"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw mr-2"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      >
+        <div
+          class="inline-flex flex-col md_inline"
+        >
+          <span>
+            18歳以上であることに
+          </span>
+          <span>
+            同意した上で閲覧する
+          </span>
+        </div>
+      </div>
+    </button>
+  </form>
+</div>
+`;
+
+exports[`components/organisms/AppFormOneCushion props post scope = password renders correctly 1`] = `
+<div>
+  <form
+    aria-label="ワンクッション"
+    class="max-w-screen-md text-center bg-white rounded mx-auto p-8"
+    name="one-cushion"
+  >
+    <fontawesomeicon-stub
+      class="fa-10x text-red-700"
+      icon="[object Object]"
+    />
+    <div
+      class="my-8"
+    >
+      <!---->
+      <div>
+        閲覧にはパスワードが必要です。
+      </div>
+      <div
+        class="flex flex-col text-left my-4 untouched pristine"
+        data-testid="input-パスワード"
+      >
+        <label
+          class="text-sm font-bold py-2"
+          data-testid="label"
+          for="input-0"
+        >
+          パスワード
+        </label>
+        <input
+          class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+          data-testid="input"
+          id="input-0"
+          name="パスワード"
+          type="password"
+        />
+        <div
+          class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+        >
+          <div
+            data-testid="errors"
+          />
+          <!---->
+        </div>
+      </div>
+    </div>
+    <button
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-red-700 text-white hover_bg-red-800 px-3 py-2 rounded"
+      data-testid="button"
+      type="submit"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw mr-2"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      >
+        <span>
+          閲覧する
+        </span>
+      </div>
+    </button>
+  </form>
+</div>
+`;

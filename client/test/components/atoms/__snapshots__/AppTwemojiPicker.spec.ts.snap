@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppTwemojiPicker renders correctly 1`] = `
+<div>
+  <div
+    class="twemoji-picker"
+  >
+    default-slot
+  </div>
+</div>
+`;

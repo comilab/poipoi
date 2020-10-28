@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppSquare renders correctly 1`] = `
+<div>
+  <div
+    class="is-square relative"
+  >
+    <div
+      class="content absolute inset-0"
+    >
+      default-slot
+    </div>
+  </div>
+</div>
+`;

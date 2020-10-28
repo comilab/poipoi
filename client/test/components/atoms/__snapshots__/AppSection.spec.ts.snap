@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppSection props tag デフォルトはsection 1`] = `
+<div>
+  <section
+    class="rounded bg-white my-8 p-4"
+    data-testid="section"
+  >
+    <h3
+      class="text-lg"
+      data-testid="title"
+    >
+      title-slot
+    </h3>
+    default-slot
+  </section>
+</div>
+`;
+
+exports[`components/atoms/AppSection props tag 指定があればそのタグで描画 1`] = `
+<div>
+  <div
+    class="rounded bg-white my-8 p-4"
+    data-testid="section"
+  >
+    <h3
+      class="text-lg"
+      data-testid="title"
+    >
+      title-slot
+    </h3>
+    default-slot
+  </div>
+</div>
+`;
+
+exports[`components/atoms/AppSection props title titleもslot#titleもなければタイトルを描画しない 1`] = `
+<div>
+  <section
+    class="rounded bg-white my-8 p-4"
+    data-testid="section"
+  >
+    <!---->
+    default-slot
+  </section>
+</div>
+`;
+
+exports[`components/atoms/AppSection props title タイトルとして表示 1`] = `
+<div>
+  <section
+    class="rounded bg-white my-8 p-4"
+    data-testid="section"
+  >
+    <h3
+      class="text-lg"
+      data-testid="title"
+    >
+      title
+    </h3>
+    default-slot
+  </section>
+</div>
+`;
+
+exports[`components/atoms/AppSection renders correctly 1`] = `
+<div>
+  <section
+    class="rounded bg-white my-8 p-4"
+    data-testid="section"
+  >
+    <h3
+      class="text-lg"
+      data-testid="title"
+    >
+      title-slot
+    </h3>
+    default-slot
+  </section>
+</div>
+`;

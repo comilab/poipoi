@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppFormReaction renders correctly 1`] = `
+<div>
+  <div
+    class="flex flex-wrap items-center -mx-2"
+  >
+    <!---->
+    <twemojipicker-stub
+      class="twemoji-picker"
+      emojidata="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      emojigroups="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+      pickerwidth="500"
+      searchemojisfeat="true"
+    >
+      <button
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none ml-2 bg-gray-300 text-gray-800 hover_bg-gray-400 text-sm px-2 py-1 square-sm rounded"
+        data-testid="button"
+        title="リアクションを追加"
+        type="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class=""
+          data-testid="text"
+        />
+      </button>
+    </twemojipicker-stub>
+    <transition-stub
+      enterclass="opacity-0"
+      leavetoclass="opacity-0"
+    >
+      <!---->
+    </transition-stub>
+  </div>
+</div>
+`;

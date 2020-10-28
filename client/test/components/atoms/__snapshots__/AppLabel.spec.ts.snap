@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppLabel renders correctly 1`] = `
+<div>
+  <label
+    class="text-sm font-bold py-2"
+  >
+    
+          label
+          
+    <input />
+  </label>
+</div>
+`;

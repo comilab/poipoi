@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/molecules/AppPopoverHelp renders correctly 1`] = `
+<div>
+  <div
+    class="inline-block"
+  >
+    <div
+      class="text-sm"
+    />
+  </div>
+</div>
+`;

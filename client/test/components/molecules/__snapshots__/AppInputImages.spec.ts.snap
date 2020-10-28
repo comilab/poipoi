@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/molecules/AppInputImages renders correctly 1`] = `
+<div>
+  <div
+    class="text-center"
+    value=""
+  >
+    <div
+      class="bg-gray-200 rounded my-4 p-4"
+    >
+      <span>
+        <!---->
+        <div
+          class="text-sm text-right"
+        >
+          0 / 200
+        </div>
+      </span>
+    </div>
+    <div
+      class="grid md_grid-cols-2 md_divide-x items-stretch my-4"
+    >
+      <div
+        class="activator flex justify-center"
+      >
+        <span
+          class="file-uploads file-uploads-html5"
+        >
+          <button
+            class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 rounded"
+            data-testid="button"
+            type="button"
+          >
+            <!---->
+            <div
+              class=""
+              data-testid="text"
+            >
+              <div>
+                ここをクリックして画像を選択
+              </div>
+              <div
+                class="hidden lg_block"
+              >
+                <div
+                  class="text-sm"
+                >
+                  もしくは
+                </div>
+                <div>
+                  画像をドラッグ&ドロップ
+                </div>
+              </div>
+            </div>
+          </button>
+           
+          <label
+            for="file"
+          />
+           
+          <input
+            accept="image/*"
+            id="file"
+            multiple="multiple"
+            name="file"
+            type="file"
+          />
+        </span>
+      </div>
+      <div
+        class="flex justify-center mt-4 md_mt-0"
+      >
+        <div
+          aria-label="ここをクリックして画像をペースト"
+          class="inline-flex items-center bg-blue-600 text-white hover_bg-blue-800 rounded cursor-pointer h-full px-4 py-2"
+          contenteditable="false"
+          role="textbox"
+        >
+          ここをクリックして画像をペースト
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppEmoji renders correctly 1`] = `
+<div>
+  <div
+    class="emoji-wrapper inline-block"
+  >
+    <img
+      alt="🍣"
+    />
+  </div>
+</div>
+`;

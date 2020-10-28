@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/atoms/AppButtonHelp renders correctly 1`] = `
+<div>
+  <button
+    type="button"
+  >
+    <fontawesomeicon-stub
+      icon="[object Object]"
+    />
+  </button>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppPostBadges renders correctly 1`] = `
+<div>
+  <ul
+    class="flex"
+  >
+    <li
+      class="mx-1"
+    >
+      <div
+        aria-label="固定"
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none bg-blue-600 text-white hover_bg-blue-700 text-sm px-2 py-1 square-sm rounded-full"
+        data-testid="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class=""
+          data-testid="text"
+        />
+      </div>
+    </li>
+    <li
+      class="mx-1"
+    >
+      <div
+        class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none pointer-events-none bg-red-700 text-white hover_bg-red-800 text-sm px-2 py-1 square-sm breakpoint-md rounded-full"
+        data-testid="button"
+      >
+        <div>
+          <fontawesomeicon-stub
+            class="fa-fw md_mr-2"
+            data-testid="icon"
+            icon="[object Object]"
+          />
+        </div>
+        <div
+          class="hidden md_block"
+          data-testid="text"
+        >
+          <span>
+            閲覧注意
+          </span>
+        </div>
+      </div>
+    </li>
+    <!---->
+    <!---->
+  </ul>
+</div>
+`;

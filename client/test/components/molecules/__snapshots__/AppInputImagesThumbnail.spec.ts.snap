@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/molecules/AppInputImagesThumbnail renders correctly 1`] = `
+<div>
+  <div
+    class="relative border rounded bg-white cursor-move p-1"
+  >
+    <div
+      class="is-square relative"
+    >
+      <div
+        class="content absolute inset-0"
+      >
+        <img
+          class="object-contain"
+          data-testid="thumbnail"
+        />
+        <!---->
+      </div>
+    </div>
+    <div
+      class="absolute right-0 bottom-0 bg-white rounded text-center text-sm w-8 h-6"
+    >
+      1
+    </div>
+    <button
+      class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none remove-button absolute shadow w-8 h-8 bg-blue-600 text-white hover_bg-blue-700 text-sm px-2 py-1 square-sm rounded-full"
+      data-testid="remove-button"
+      type="button"
+    >
+      <div>
+        <fontawesomeicon-stub
+          class="fa-fw"
+          data-testid="icon"
+          icon="[object Object]"
+        />
+      </div>
+      <div
+        class=""
+        data-testid="text"
+      />
+    </button>
+  </div>
+</div>
+`;

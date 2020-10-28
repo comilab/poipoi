@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/organisms/AppGlobalHeader renders correctly 1`] = `
+<div>
+  <header
+    class="bg-white text-sm lg_sticky top-0 lg_shadow z-40 px-2 xl_px-8 py-2"
+  >
+    <div
+      class="flex flex-wrap items-center"
+    >
+      <div
+        class="block lg_hidden"
+      >
+        <nuxtlink-stub
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 px-3 py-2 square-md rounded"
+          data-testid="button"
+          to="/"
+        >
+          <div>
+            <fontawesomeicon-stub
+              class="fa-fw"
+              data-testid="icon"
+              icon="[object Object]"
+            />
+          </div>
+          <div
+            class=""
+            data-testid="text"
+          />
+        </nuxtlink-stub>
+      </div>
+      <div
+        class="hidden lg_block ml-2"
+      >
+        <h1
+          class="font-bold"
+        >
+          <nuxtlink-stub
+            class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-blue-600 text-white hover_bg-blue-700 text-xl px-4 py-2 rounded"
+            data-testid="button"
+            to="/"
+          >
+            <!---->
+            <div
+              class=""
+              data-testid="text"
+            >
+              site-title
+            </div>
+          </nuxtlink-stub>
+        </h1>
+      </div>
+      <form
+        class="flex-auto flex items-center ml-4 mr-8"
+        role="search"
+      >
+        <div
+          class="flex flex-col flex-auto w-20 sm_w-auto untouched pristine"
+          data-testid="input-null"
+          placeholder="検索"
+        >
+          <!---->
+          <input
+            class="border-b focus_border-blue-400 focus_outline-none transition-colors duration-300 bg-white p-2"
+            data-testid="input"
+            id="input-0"
+            placeholder="検索"
+            type="search"
+          />
+          <div
+            class="flex flex-col md_flex-row flex-col-reverse justify-between text-sm"
+          >
+            <div
+              data-testid="errors"
+            />
+            <!---->
+          </div>
+        </div>
+        <button
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none ml-2 bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 square-md rounded-full"
+          data-testid="button"
+          type="submit"
+        >
+          <div>
+            <fontawesomeicon-stub
+              class="fa-fw"
+              data-testid="icon"
+              icon="[object Object]"
+            />
+          </div>
+          <div
+            class=""
+            data-testid="text"
+          />
+        </button>
+      </form>
+      <div
+        class="block md_hidden relative"
+      >
+        <button
+          class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 square-md rounded-full"
+          data-testid="button"
+          type="button"
+        >
+          <div>
+            <fontawesomeicon-stub
+              class="fa-fw"
+              data-testid="icon"
+              icon="[object Object]"
+            />
+          </div>
+          <div
+            class=""
+            data-testid="text"
+          />
+        </button>
+      </div>
+      <nav
+        class="w-full md_w-auto overflow-hidden md_overflow-visible h-0 md_h-auto"
+      >
+        <ul
+          class="grid gap-2 md_gap-0 divide-y md_divide-y-0 md_flex md_justify-end pt-2 md_pt-0"
+        >
+          <li
+            class="pt-2 md_pt-0 md_ml-2"
+          >
+            <nuxtlink-stub
+              class="inline-flex items-center justify-center whitespace-no-wrap transition-colors duration-300 disabled_opacity-75 disabled_pointer-events-none focus_outline-none w-full md_w-auto bg-white text-gray-600 hover_bg-gray-300 hover_text-gray-800 px-3 py-2 rounded-full"
+              data-testid="button"
+              to="/login"
+            >
+              <div>
+                <fontawesomeicon-stub
+                  class="fa-fw mr-2"
+                  data-testid="icon"
+                  icon="[object Object]"
+                />
+              </div>
+              <div
+                class=""
+                data-testid="text"
+              >
+                ログイン
+              </div>
+            </nuxtlink-stub>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</div>
+`;
