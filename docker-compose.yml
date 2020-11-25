@@ -10,10 +10,15 @@ services:
       - ./docker/nginx/default.conf:/etc/nginx/conf.d/default.conf
       - .:/var/www
   php:
-    build: ./docker/php
+    tty: true
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
     volumes:
       - ./docker/php/php.ini:/usr/local/etc/php/php.ini
       - ./php:/var/www/php:delegated
+      - php-vendor:/var/www/php/vendor
+      - php-node-modules:/var/www/php/node_modules
   mysql:
     image: mysql:5.7
     environment:
@@ -26,7 +31,10 @@ services:
     volumes:
       - mysql-data:/var/lib/mysql
   node:
-    build: ./docker/node
+    tty: true
+    build:
+      context: .
+      dockerfile: ./docker/node/Dockerfile
     environment:
       API_URL: ${API_URL:-http://localhost:8081}
     command: yarn run dev
@@ -34,5 +42,9 @@ services:
       - "8080:3000"
     volumes:
       - ./client:/var/www/client:delegated
+      - node-modules:/var/www/client/node_modules
 volumes:
   mysql-data:
+  php-vendor:
+  php-node-modules:
+  node-modules:

@@ -1,12 +1,24 @@
 version: '3'
 services:
   php:
-    build: ./docker/php
+    tty: true
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
     volumes:
       - ./docker/php/php.ini:/usr/local/etc/php/php.ini
       - ./php:/var/www/php
+      - php-vendor:/var/www/php/vendor
+      - php-node-modules:/var/www/php/node_modules
   node:
-    build: ./docker/node
-    command: tail -f /dev/null
+    tty: true
+    build:
+      context: .
+      dockerfile: ./docker/node/Dockerfile
     volumes:
       - ./client:/var/www/client
+      - node-modules:/var/www/client/node_modules
+volumes:
+  php-vendor:
+  php-node-modules:
+  node-modules:

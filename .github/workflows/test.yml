@@ -21,14 +21,9 @@ jobs:
           docker-compose -f docker-compose.ci.yml up -d
       - name: setup-php
         run: |
-          docker-compose exec -T php composer install --no-interaction
-          docker-compose exec -T php yarn install
           docker-compose exec -T php cp .env.example .env
           docker-compose exec -T php php artisan key:generate
           docker-compose exec -T php touch database/database.sqlite
-      - name: setup-client
-        run: |
-          docker-compose exec -T node yarn install
       - name: test-php
         run: docker-compose exec -T php php artisan test
       - name: test-client

@@ -25,15 +25,12 @@
 ## 動作確認手順（開発用）
 
 1. /php/.env.example を /php/.env にコピーする
-2. /php/database/database.sqlite を作成
-3. 以下を実行
+2. 以下を実行
 
 ```sh
 $ docker-compose up
-$ docker-compose exec php php composer install
 $ docker-compose exec php php artisan key:generate
-$ docker-compose exec php php artisan migrate
-$ docker-compose exec php php artisan db:seed
+$ docker-compose exec php php artisan migrate --seed
 $ docker-compose exec php php artisan storage:link
 ```
 

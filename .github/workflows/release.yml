@@ -22,7 +22,6 @@ jobs:
           docker-compose exec -T php php artisan view:cache
       - name: setup-client
         run: |
-          docker-compose exec -T node yarn install
           docker-compose exec -T node yarn generate
           cp -r client/dist/_nuxt php/public
           cp client/dist/200.html php/public/_nuxt/index.html

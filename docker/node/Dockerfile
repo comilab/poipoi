@@ -1,12 +1,18 @@
-FROM node:alpine
+FROM node:slim
 
 WORKDIR /var/www/client
 
 ENV HOST 0.0.0.0
 EXPOSE 3000
 
-RUN apk update \
-    && apk upgrade \
-    && apk add make gcc g++ python
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+    python3 \
+    make \
+    g++ \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-#CMD ["yarn", "run", "dev"]
+COPY ./client/package.json ./client/yarn.lock ./
+
+RUN yarn install && yarn cache clean
