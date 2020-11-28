@@ -51,7 +51,7 @@ class PostFactory extends Factory
     {
         return $this->state(function () {
             $publishEnd = $this->faker->dateTimeBetween(Carbon::now(), Carbon::now()->addYear());
-            $publishStart = $this->faker->dateTime($publishEnd);
+            $publishStart = $this->faker->dateTime();
 
             return [
                 'scope' => $this->faker->randomElement(['public', 'password']),

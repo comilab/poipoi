@@ -95,7 +95,7 @@ describe('components/organisms/AppFormReaction', () => {
   describe('古いリアクションを表示', () => {
     beforeEach(() => {
       options.props.post = postFactory.build({
-        reactions: reactionFactory.buildList(100),
+        reactions: reactionFactory.buildList(100, { emoji: '💯' }),
         reactionsCount: 101
       })
     })
