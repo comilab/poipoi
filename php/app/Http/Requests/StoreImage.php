@@ -2,9 +2,9 @@
 
 namespace App\Http\Requests;
 
+use App\Services\Image;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Storage;
-use Intervention\Image\Facades\Image;
 
 class StoreImage extends FormRequest
 {
@@ -35,7 +35,7 @@ class StoreImage extends FormRequest
         $tempFile = $this->file('file')->store('temp');
 
         // large
-        $this->resize(
+        app(Image::class)->resize(
             Storage::path($tempFile),
             Storage::path("{$tempFile}.large"),
             1000,
@@ -43,7 +43,7 @@ class StoreImage extends FormRequest
         );
 
         // medium
-        $this->resize(
+        app(Image::class)->resize(
             Storage::path($tempFile),
             Storage::path("{$tempFile}.medium"),
             600,
@@ -51,7 +51,7 @@ class StoreImage extends FormRequest
         );
 
         // small
-        $this->resize(
+        app(Image::class)->resize(
             Storage::path($tempFile),
             Storage::path("{$tempFile}.small"),
             250,
@@ -59,15 +59,5 @@ class StoreImage extends FormRequest
         );
 
         return $tempFile;
-    }
-
-    protected function resize(string $from, string $to, int $width, int $height)
-    {
-        Image::make($from)
-            ->resize($width, $height, function ($constraint) {
-                $constraint->aspectRatio();
-                $constraint->upsize();
-            })
-            ->save($to, 90, 'jpeg');
     }
 }

@@ -18,6 +18,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(\App\Services\Setting::class);
         $this->app->singleton(\App\Services\Emoji::class);
         $this->app->bind(\App\Services\SpaView::class);
+        $this->app->bind(\App\Services\Image::class);
     }
 
     /**
