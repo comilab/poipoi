@@ -10,6 +10,10 @@ services:
       - ./php:/var/www/php
       - php-vendor:/var/www/php/vendor
       - php-node-modules:/var/www/php/node_modules
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined
   node:
     tty: true
     build:

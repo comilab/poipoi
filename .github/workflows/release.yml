@@ -27,6 +27,8 @@ jobs:
           cp client/dist/200.html php/public/_nuxt/index.html
       - name: zip
         run: |
+          sudo docker cp $(docker ps -aqf "name=php"):/var/www/php/vendor ./php
+          sudo docker cp $(docker ps -aqf "name=php"):/var/www/php/node_modules ./php
           mv php poipoi
           cd poipoi
           rm -r tests
