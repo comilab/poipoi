@@ -31,7 +31,7 @@ jobs:
           mv php poipoi
           cd poipoi
           rm -r tests
-          rm database/database.sqlite
+          rm -f database/database.sqlite
           rm package.json phpunit.xml .styleci.yml .editorconfig .gitattributes .gitignore .env.example composer.lock yarn.lock
           cd ../
           zip -r release.zip poipoi
