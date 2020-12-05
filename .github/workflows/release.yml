@@ -12,8 +12,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: docker-compose
         run: |
-          docker-compose build
-          docker-compose -f docker-compose.ci.yml up -d
+          docker-compose up -d
       - name: setup-php
         run: |
           docker-compose exec -T php composer install --no-dev --no-interaction
@@ -32,6 +31,7 @@ jobs:
           mv php poipoi
           cd poipoi
           rm -r tests
+          rm -f database/database.sqlite
           rm package.json phpunit.xml .styleci.yml .editorconfig .gitattributes .gitignore .env.example composer.lock yarn.lock
           cd ../
           zip -r release.zip poipoi
