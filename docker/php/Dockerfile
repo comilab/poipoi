@@ -27,10 +27,3 @@ COPY ./php/composer.* ./php/package.json ./php/yarn.lock ./
 
 RUN composer install --no-scripts && composer clear-cache
 RUN yarn install && yarn cache clean
-
-COPY ./php .
-
-RUN composer run-script post-autoload-dump \
-    && touch database/database.sqlite \
-    && chmod 0666 database/database.sqlite \
-    && chmod -R 0777 storage
