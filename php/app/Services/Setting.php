@@ -9,6 +9,19 @@ class Setting
 {
     protected $setting;
 
+    protected $fields = [
+        'siteTitle',
+        'siteDescription',
+        'perPage',
+        'denyRobot',
+        'enableFeed',
+        'postDefault.denyRobotScope',
+        'postDefault.enableReaction',
+        'postDefault.enableTwitterShare',
+        'postDefault.allowedEmojis',
+        'postDefault.deniedEmojis',
+    ];
+
     public function __construct()
     {
         $this->setting = SettingModel::first();
@@ -16,7 +29,7 @@ class Setting
 
     public function all()
     {
-        return $this->setting->data;
+        return data_get($this->setting, 'data', []);
     }
 
     public function get($key = null, $default = null)
@@ -41,10 +54,10 @@ class Setting
 
     public function replace($values, $save = true)
     {
-        $dotted = Arr::dot($values);
-
-        foreach ($dotted as $key => $value) {
-            $this->set($key, $value, false);
+        foreach ($this->fields as $field) {
+            if (Arr::has($values, $field)) {
+                $this->set($field, Arr::get($values, $field), false);
+            }
         }
 
         if ($save) {
