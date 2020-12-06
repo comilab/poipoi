@@ -127,7 +127,6 @@ import VueScrollTo from 'vue-scrollto'
 import { faCheck, faSmile, faBan } from '@fortawesome/free-solid-svg-icons'
 
 import { useStore } from '~/store'
-import Setting from '~/models/Setting'
 import AppLoadingOverlay from '~/components/atoms/AppLoadingOverlay.vue'
 import AppSection from '~/components/atoms/AppSection.vue'
 import AppButton from '~/components/atoms/AppButton.vue'
