@@ -1,5 +1,5 @@
 <template lang="pug">
-AppLoadingOverlay(:loading="fetchState.pending")
+AppLoadingOverlay(:loading="$fetchState.pending")
   AppSection(v-if="posts")
     .text-center.text-gray-700(
       v-if="!posts.length"
@@ -47,7 +47,7 @@ export default defineComponent({
 
     const { posts, pagination, index } = usePostsApi()
 
-    const { fetch, fetchState } = useFetch(async () => {
+    const { fetch } = useFetch(async () => {
       await index(route.value.query)
       VueScrollTo.scrollTo('#top')
     })
@@ -69,7 +69,6 @@ export default defineComponent({
     return {
       posts,
       pagination,
-      fetchState,
       onSelected
     }
   }

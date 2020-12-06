@@ -1,5 +1,5 @@
 <template lang="pug">
-AppLoadingOverlay(:loading="fetchState.pending")
+AppLoadingOverlay(:loading="$fetchState.pending")
   ValidationObserver(
     v-if="input.settings",
     v-slot="{ invalid }",
@@ -127,7 +127,6 @@ import VueScrollTo from 'vue-scrollto'
 import { faCheck, faSmile, faBan } from '@fortawesome/free-solid-svg-icons'
 
 import { useStore } from '~/store'
-import Setting from '~/models/Setting'
 import AppLoadingOverlay from '~/components/atoms/AppLoadingOverlay.vue'
 import AppSection from '~/components/atoms/AppSection.vue'
 import AppButton from '~/components/atoms/AppButton.vue'
@@ -163,7 +162,7 @@ export default defineComponent({
       sending: false
     })
 
-    const { fetchState } = useFetch(async () => {
+    useFetch(async () => {
       await store.setting.load()
       localState.input.settings = {
         ...store.setting.data.value!
@@ -185,7 +184,6 @@ export default defineComponent({
     return {
       store,
       ...toRefs(localState),
-      fetchState,
       onSubmit,
       denyRobotOptions: [
         { label: 'する', value: true },

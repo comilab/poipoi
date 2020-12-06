@@ -1,5 +1,5 @@
 <template lang="pug">
-AppLoadingOverlay(:loading="fetchState.pending")
+AppLoadingOverlay(:loading="$fetchState.pending")
   AppSection.max-w-screen-md.divide-y.mx-auto.px-2.md_px-4
     div(v-if="!notifications.length") お知らせがありません
     template(v-else)
@@ -53,7 +53,7 @@ export default defineComponent({
 
     const { notifications, pagination, index } = useNotificationsApi()
 
-    const { fetch, fetchState } = useFetch(async () => {
+    const { fetch } = useFetch(async () => {
       await index(route.value.query)
     })
 
@@ -74,7 +74,6 @@ export default defineComponent({
     return {
       notifications,
       pagination,
-      fetchState,
       onSelected
     }
   }
