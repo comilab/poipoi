@@ -1,6 +1,6 @@
 import { render, waitFor } from '@testing-library/vue'
 import { mocked } from 'ts-jest/utils'
-import { ref, reactive } from '@vue/composition-api'
+import { ref } from '@vue/composition-api'
 import * as NuxtCompositionApi from 'nuxt-composition-api'
 import VueScrollTo from 'vue-scrollto'
 
@@ -32,6 +32,11 @@ describe('pages/index', () => {
       stubs: {
         FontAwesomeIcon: true,
         NuxtLink: true
+      },
+      mocks: {
+        $fetchState: {
+          pending: false
+        }
       }
     }
 
@@ -52,10 +57,7 @@ describe('pages/index', () => {
     jest.spyOn(NuxtCompositionApi, 'useMeta').mockReturnValue(metaMock)
 
     fetchMock = {
-      fetch: jest.fn(),
-      fetchState: reactive({
-        pending: false
-      })
+      fetch: jest.fn()
     }
     jest.spyOn(NuxtCompositionApi, 'useFetch').mockReturnValue(fetchMock)
 

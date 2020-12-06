@@ -1,7 +1,7 @@
 import { render, waitFor } from '@testing-library/vue'
 import { mocked } from 'ts-jest/utils'
 import * as NuxtCompositionApi from 'nuxt-composition-api'
-import { ref, reactive } from '@vue/composition-api'
+import { ref } from '@vue/composition-api'
 import faker from 'faker'
 import dayjs from 'dayjs'
 
@@ -27,6 +27,11 @@ describe('pages/posts/_id/index', () => {
         FontAwesomeIcon: true,
         NuxtLink: true,
         AppTwemojiPicker: true
+      },
+      mocks: {
+        $fetchState: {
+          pending: false
+        }
       }
     }
 
@@ -42,10 +47,7 @@ describe('pages/posts/_id/index', () => {
     jest.spyOn(NuxtCompositionApi, 'useContext').mockReturnValue(contextMock)
 
     fetchMock = {
-      fetch: jest.fn(),
-      fetchState: reactive({
-        pending: false
-      })
+      fetch: jest.fn()
     }
     jest.spyOn(NuxtCompositionApi, 'useFetch').mockReturnValue(fetchMock)
 

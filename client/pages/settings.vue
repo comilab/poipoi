@@ -1,5 +1,5 @@
 <template lang="pug">
-AppLoadingOverlay(:loading="fetchState.pending")
+AppLoadingOverlay(:loading="$fetchState.pending")
   ValidationObserver(
     v-if="input.settings",
     v-slot="{ invalid }",
@@ -163,7 +163,7 @@ export default defineComponent({
       sending: false
     })
 
-    const { fetchState } = useFetch(async () => {
+    useFetch(async () => {
       await store.setting.load()
       localState.input.settings = {
         ...store.setting.data.value!
@@ -185,7 +185,6 @@ export default defineComponent({
     return {
       store,
       ...toRefs(localState),
-      fetchState,
       onSubmit,
       denyRobotOptions: [
         { label: 'する', value: true },

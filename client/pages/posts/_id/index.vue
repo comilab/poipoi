@@ -1,5 +1,5 @@
 <template lang="pug">
-AppLoadingOverlay(:loading="fetchState.pending")
+AppLoadingOverlay(:loading="$fetchState.pending")
   template(v-if="post")
     AppPostMeta(:post="post")
     article
@@ -81,7 +81,7 @@ export default defineComponent({
 
     const { post, show } = usePostsApi()
 
-    const { fetchState } = useFetch(async () => {
+    useFetch(async () => {
       await show(params.value.id)
     })
 
@@ -122,7 +122,6 @@ export default defineComponent({
 
     return {
       post,
-      fetchState,
       ...toRefs(localState),
       isUpdated,
       showOneCushion,

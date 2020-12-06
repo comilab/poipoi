@@ -1,5 +1,5 @@
 import { fireEvent, render, waitFor, within } from '@testing-library/vue'
-import { reactive, Ref } from '@vue/composition-api'
+import { Ref } from '@vue/composition-api'
 import * as NuxtCompositionApi from 'nuxt-composition-api'
 import { validate } from 'vee-validate'
 import faker from 'faker'
@@ -24,6 +24,11 @@ describe('pages/settings', () => {
         FontAwesomeIcon: true,
         VPopover: true,
         AppTwemojiPicker: true
+      },
+      mocks: {
+        $fetchState: {
+          pending: false
+        }
       }
     }
 
@@ -33,11 +38,7 @@ describe('pages/settings', () => {
     jest.spyOn(store.store.session, 'load').mockResolvedValue()
     jest.spyOn(store, 'useStore').mockReturnValue(store.store)
 
-    fetchMock = {
-      fetchState: reactive({
-        pending: false
-      })
-    }
+    fetchMock = {}
     jest.spyOn(NuxtCompositionApi, 'useFetch').mockReturnValue(fetchMock)
   })
 
