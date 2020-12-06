@@ -47,10 +47,10 @@ const postFactory: IFactory<Post> = Factory.define('post', Post)
   .attr('actualEnableReaction', ['enableReaction'], (enableReaction: boolean|null) => {
     return enableReaction === null ? faker.random.boolean : enableReaction
   })
-  .attr('actualAllowedEmojis', ['allowedEmojis'], (allowedEmojis: boolean|null) => {
+  .attr('actualAllowedEmojis', ['allowedEmojis'], (allowedEmojis: string[]|null) => {
     return allowedEmojis === null ? [] : allowedEmojis
   })
-  .attr('actualDeniedEmojis', ['denyRobot'], (deniedEmojis: boolean|null) => {
+  .attr('actualDeniedEmojis', ['deniedEmojis'], (deniedEmojis: string[]|null) => {
     return deniedEmojis === null ? [] : deniedEmojis
   })
   .attr('emojis', ['actualAllowedEmojis', 'actualDeniedEmojis'], (actualAllowedEmojis: string[], actualDeniedEmojis: string[]) => {
